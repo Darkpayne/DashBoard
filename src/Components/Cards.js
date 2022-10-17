@@ -7,13 +7,6 @@ const Cards = () => {
             title:"User",
             desc:"User Profile",
         },
-        // {
-        //     image:1,
-        //     link:'worktime.abiliintegratedserv.org/admin/calendar',
-        //     svg:"calendar-outline",
-        //     title:"Calendar",
-        //     desc:"To check SET date and time",
-        // },
         {
             image:2,
             link:'mail.abiliintegratedserv.org',
@@ -80,7 +73,7 @@ const Cards = () => {
                     <div key={index}  class="col-span-1 mx-auto justify-center rounded-2xl shadow-xl shadow-slate-300/60 hover:scale-105 duration-500 translate-y-1 cursor-pointer active:scale-90 w-[300px] text-center bg-white">
                         <a href={`https://${card.link}`}>
                         {/* <img class="w-[250px] rounded-t-2xl object-cover object-center" src={`/assets/image${card.image}.jpg`} /> */}
-                        <div className="text-6xl p-5 flex justify-center items-center text-green-600 font-extrabold">
+                        <div className="text-6xl p-5 flex justify-center items-center text-blue-600 font-extrabold">
                             <ion-icon name={card.svg}></ion-icon>
                         </div>
                         <div class="p-4 bg-slate-50">
