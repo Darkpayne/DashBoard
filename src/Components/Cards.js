@@ -16,10 +16,10 @@ const Cards = () => {
     },
     {
       image: 3,
-      link: "worktime.abiliintegratedserv.org/admin/filemanager",
+      link: "worktime.abiliintegratedserv.org/admin/departments",
       svg: "folder-outline",
-      title: "File Manager",
-      desc: "manage your files and resources",
+      title: "Departments",
+      desc: "Overview of all company departments",
     },
     {
       image: 16,
